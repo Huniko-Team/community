@@ -1,0 +1,25 @@
+name: Invite me to the Huniko team
+
+description: I would like to be part of the awesome Huniko team
+
+title: "Please invite me to the Huniko team"
+
+labels: [✉️ github-invitation]
+
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Insert your name here
+    validations:
+      required: true
+
+  - type: textarea
+    id: Additional
+    attributes:
+      label: Additional Context
+      description: Where did you meet Huniko team? What do you like about this Huniko team? Why do you want to join?
+      placeholder: I would like to be part of the awesome team
+    validations:
+      required: false
