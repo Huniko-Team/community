@@ -15,6 +15,6 @@ jobs:
           organization: Huniko-Team
           label: ✉️ github-invitation
           repo-token: ${{ secrets.REPO_GITHUB_TOKEN }}
-          comment: "<h1><b>Welcome to You! 🎉</b></h1><br><br>Please check your mail to accept the invitation sent by GitHub! 🤖<br><h1>About us</h1>💻 Great to have you in our community ✨ Looking forward to your valuable contributions! 🤓 You can also check our community ✨ Github 💜 You can also share our community with other folks who want to learn about development, tech, and contribute together and with us 👉💜👈"
+          comment: "<h1><b>Welcome to You! 🎉</b></h1><br>Please check your mail to accept the invitation sent by GitHub! 🤖<br><h1>About us</h1>💻 Great to have you in our community ✨ Looking forward to your valuable contributions! 🤓 You can also check our community ✨ Github 💜 You can also share our community with other folks who want to learn about development, tech, and contribute together and with us 👉💜👈"
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_ORG_TOKEN }}
