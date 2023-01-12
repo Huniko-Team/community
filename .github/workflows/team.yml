@@ -1,4 +1,4 @@
-name: Huniko Team
+name: Team Invite Action
 on:
   push:
     branches: master
