@@ -1,0 +1,16 @@
+name: Huniko Team
+on:
+  push:
+    branches: master
+jobs:
+  invite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invite contributor to the organization
+        uses: lekterable/inclusive-organization-action@v1.1.0
+        with:
+          organization: Huniko-Team
+          team: Huniko-Team
+          comment: Welcome to you.
+        env:
+          ACCESS_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
