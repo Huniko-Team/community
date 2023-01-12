@@ -15,4 +15,4 @@ jobs:
           repo-token: ${{ secrets.REPO_GITHUB_TOKEN }}
           comment: "<b>Invitation sent to join the GitHub Organization. Welcome to Huniko Team 🎉</b><br><br>Please check your mail to accept the invitation sent by GitHub! 🤖<br><h1>About us</h1>Huniko team is an open source solution for serverless platforms, it is designed for developing solutions and enhancing creators to create their infrastructure 💻 Great to have you in our community ✨ Looking forward to your valuable contributions! 🤓 You can also check our community ✨ [Github](https://github.com/huniko-team) 💜 You can also share our community with other folks who want to learn about development, DevOps, tech, and contribute together and with us 👉💜👈"
         env:
-          INVITE_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
+          INVITE_TOKEN: ${{ secrets.INVITE_ORG_TOKEN }}
