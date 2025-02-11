@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Invite-on-label
-        uses: vj-abigo/invite-on-label@v1.2
+        uses: vj-abigo/invite-on-label@v1.4
         with:
           organization: Huniko-Team
           label: ✉️ github-invitation
